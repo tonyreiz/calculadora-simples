@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Calculadora fodaa</title>
+    <link rel="stylesheet" href="calc.css">
+    <script src="calc.js" defer></script>
+</head>
+<body>
+    
+    <div class="formulario">
+
+        <form>
+
+            <h2 class="cabecario">Calculadora fodelástica</h2>
+
+            <div class="campo">
+
+                <label>Valor 1:</label>
+                <input type="number" id="txtValor1">
+
+            </div>
+
+            <div class="campo">
+
+                <label>Valor 2:</label>
+                <input type="number" id="txtValor2">
+
+            </div>
+
+            <div class="campo">
+
+                <label>Operação:</label>
+                <select id="cbxOperacao">
+                    <option value="+">Soma</option>
+                    <option value="-">Subtração</option>
+                    <option value="/">Divisão</option>
+                    <option value="*">Multiplicação</option>
+                </select>   
+             </div>
+
+             <button type="button" onclick="calcular()">Calcular</button>
+
+             <div class="campo">
+
+                <label>Resultado:</label>
+                <span class="resultado" id="cbxResultado">-</span>
+             </div>
+
+
+        </form>
+
+    </div>
+
+</body>
+</html>
